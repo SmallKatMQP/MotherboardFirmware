@@ -94,19 +94,19 @@
 /*---------- -----------*/
 #define USBD_MAX_NUM_CONFIGURATION     1
 /*---------- -----------*/
-#define USBD_MAX_STR_DESC_SIZ     512
+#define USBD_MAX_STR_DESC_SIZ     464
 /*---------- -----------*/
-#define USBD_SUPPORT_USER_STRING     0
+#define USBD_SUPPORT_USER_STRING     1
 /*---------- -----------*/
-#define USBD_DEBUG_LEVEL     3
+#define USBD_DEBUG_LEVEL     0
 /*---------- -----------*/
 #define USBD_LPM_ENABLED     0
 /*---------- -----------*/
-#define USBD_SELF_POWERED     0
+#define USBD_SELF_POWERED     1
 /*---------- -----------*/
 #define USBD_CUSTOMHID_OUTREPORT_BUF_SIZE     64
 /*---------- -----------*/
-#define USBD_CUSTOM_HID_REPORT_DESC_SIZE     64
+#define USBD_CUSTOM_HID_REPORT_DESC_SIZE     255
 
 /****************************************/
 /* #define for FS and HS identification */

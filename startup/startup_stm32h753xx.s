@@ -1,8 +1,8 @@
 /**
   ******************************************************************************
-  * @file      startup_stm32h753xx.s
+  * @file      startup_stm32h743xx.s
   * @author    MCD Application Team
-  * @brief     STM32H753xx Devices vector table for GCC based toolchain. 
+  * @brief     STM32H743xx Devices vector table for GCC based toolchain.
   *            This module performs:
   *                - Set the initial SP
   *                - Set the initial PC == Reset_Handler,
@@ -232,13 +232,13 @@ g_pfnVectors:
   .word     USART6_IRQHandler                 /* USART6                       */                    
   .word     I2C3_EV_IRQHandler                /* I2C3 event                   */                          
   .word     I2C3_ER_IRQHandler                /* I2C3 error                   */                          
-  .word     OTG_HS_EP1_OUT_IRQHandler         /* USB OTG HS End Point 1 Out   */                   
-  .word     OTG_HS_EP1_IN_IRQHandler          /* USB OTG HS End Point 1 In    */                   
-  .word     OTG_HS_WKUP_IRQHandler            /* USB OTG HS Wakeup through EXTI */                         
-  .word     OTG_HS_IRQHandler                 /* USB OTG HS                   */                   
+  .word     OTG_HS_EP1_OUT_IRQHandler         /* USB OTG HS End Point 1 Out   */
+  .word     OTG_HS_EP1_IN_IRQHandler          /* USB OTG HS End Point 1 In    */
+  .word     OTG_HS_WKUP_IRQHandler            /* USB OTG HS Wakeup through EXTI */
+  .word     OTG_HS_IRQHandler                 /* USB OTG HS                   */
   .word     DCMI_IRQHandler                   /* DCMI                         */                   
-  .word     CRYP_IRQHandler                   /* Crypto                       */                   
-  .word     HASH_RNG_IRQHandler               /* Hash and Rng                 */
+  .word     0                                 /* Reserved                     */
+  .word     RNG_IRQHandler                    /* Rng                          */
   .word     FPU_IRQHandler                    /* FPU                          */
   .word     UART7_IRQHandler                  /* UART7                        */      
   .word     UART8_IRQHandler                  /* UART8                        */
@@ -256,9 +256,9 @@ g_pfnVectors:
   .word     I2C4_EV_IRQHandler                /* I2C4 Event                   */
   .word     I2C4_ER_IRQHandler                /* I2C4 Error                   */
   .word     SPDIF_RX_IRQHandler               /* SPDIF_RX                     */ 
-  .word     OTG_FS_EP1_OUT_IRQHandler         /* USB OTG FS End Point 1 Out   */   
-  .word     OTG_FS_EP1_IN_IRQHandler          /* USB OTG FS End Point 1 In    */   
-  .word     OTG_FS_WKUP_IRQHandler            /* USB OTG FS Wakeup through EXTI */  
+  .word     OTG_FS_EP1_OUT_IRQHandler         /* USB OTG FS End Point 1 Out   */
+  .word     OTG_FS_EP1_IN_IRQHandler          /* USB OTG FS End Point 1 In    */
+  .word     OTG_FS_WKUP_IRQHandler            /* USB OTG FS Wakeup through EXTI */
   .word     OTG_FS_IRQHandler                 /* USB OTG FS                   */
   .word     DMAMUX1_OVR_IRQHandler            /* DMAMUX1 Overrun interrupt    */  
   .word     HRTIM1_Master_IRQHandler          /* HRTIM Master Timer global Interrupt */
@@ -565,11 +565,8 @@ g_pfnVectors:
    .weak      DCMI_IRQHandler            
    .thumb_set DCMI_IRQHandler,Default_Handler
 
-   .weak      CRYP_IRQHandler            
-   .thumb_set CRYP_IRQHandler,Default_Handler
-
-   .weak      HASH_RNG_IRQHandler            
-   .thumb_set HASH_RNG_IRQHandler,Default_Handler   
+   .weak      RNG_IRQHandler
+   .thumb_set RNG_IRQHandler,Default_Handler
 
    .weak      FPU_IRQHandler                  
    .thumb_set FPU_IRQHandler,Default_Handler

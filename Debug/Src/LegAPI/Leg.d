@@ -28,6 +28,8 @@ Src/LegAPI/Leg.o: ../Src/LegAPI/Leg.cpp ../Src/LegAPI/Leg.h \
  /home/kbisland/MotherboardFirmware/Drivers/STM32H7xx_HAL_Driver/Inc/stm32h7xx_hal_pwr_ex.h \
  /home/kbisland/MotherboardFirmware/Drivers/STM32H7xx_HAL_Driver/Inc/stm32h7xx_hal_spi.h \
  /home/kbisland/MotherboardFirmware/Drivers/STM32H7xx_HAL_Driver/Inc/stm32h7xx_hal_spi_ex.h \
+ /home/kbisland/MotherboardFirmware/Drivers/STM32H7xx_HAL_Driver/Inc/stm32h7xx_hal_tim.h \
+ /home/kbisland/MotherboardFirmware/Drivers/STM32H7xx_HAL_Driver/Inc/stm32h7xx_hal_tim_ex.h \
  /home/kbisland/MotherboardFirmware/Drivers/STM32H7xx_HAL_Driver/Inc/stm32h7xx_hal_uart.h \
  /home/kbisland/MotherboardFirmware/Drivers/STM32H7xx_HAL_Driver/Inc/stm32h7xx_hal_uart_ex.h \
  /home/kbisland/MotherboardFirmware/Drivers/STM32H7xx_HAL_Driver/Inc/stm32h7xx_hal_pcd.h \
@@ -94,6 +96,10 @@ Src/LegAPI/Leg.o: ../Src/LegAPI/Leg.cpp ../Src/LegAPI/Leg.h \
 /home/kbisland/MotherboardFirmware/Drivers/STM32H7xx_HAL_Driver/Inc/stm32h7xx_hal_spi.h:
 
 /home/kbisland/MotherboardFirmware/Drivers/STM32H7xx_HAL_Driver/Inc/stm32h7xx_hal_spi_ex.h:
+
+/home/kbisland/MotherboardFirmware/Drivers/STM32H7xx_HAL_Driver/Inc/stm32h7xx_hal_tim.h:
+
+/home/kbisland/MotherboardFirmware/Drivers/STM32H7xx_HAL_Driver/Inc/stm32h7xx_hal_tim_ex.h:
 
 /home/kbisland/MotherboardFirmware/Drivers/STM32H7xx_HAL_Driver/Inc/stm32h7xx_hal_uart.h:
 

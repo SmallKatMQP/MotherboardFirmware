@@ -1,4 +1,4 @@
-Src/usbd_custom_hid_if.o: ../Src/usbd_custom_hid_if.c \
+Src/usbd_custom_hid_if.o: ../Src/usbd_custom_hid_if.cpp \
  /home/kbisland/MotherboardFirmware/Inc/usbd_custom_hid_if.h \
  /home/kbisland/MotherboardFirmware/Middlewares/ST/STM32_USB_Device_Library/Class/CustomHID/Inc/usbd_customhid.h \
  /home/kbisland/MotherboardFirmware/Middlewares/ST/STM32_USB_Device_Library/Core/Inc/usbd_ioreq.h \
@@ -32,6 +32,8 @@ Src/usbd_custom_hid_if.o: ../Src/usbd_custom_hid_if.c \
  /home/kbisland/MotherboardFirmware/Drivers/STM32H7xx_HAL_Driver/Inc/stm32h7xx_hal_pwr_ex.h \
  /home/kbisland/MotherboardFirmware/Drivers/STM32H7xx_HAL_Driver/Inc/stm32h7xx_hal_spi.h \
  /home/kbisland/MotherboardFirmware/Drivers/STM32H7xx_HAL_Driver/Inc/stm32h7xx_hal_spi_ex.h \
+ /home/kbisland/MotherboardFirmware/Drivers/STM32H7xx_HAL_Driver/Inc/stm32h7xx_hal_tim.h \
+ /home/kbisland/MotherboardFirmware/Drivers/STM32H7xx_HAL_Driver/Inc/stm32h7xx_hal_tim_ex.h \
  /home/kbisland/MotherboardFirmware/Drivers/STM32H7xx_HAL_Driver/Inc/stm32h7xx_hal_uart.h \
  /home/kbisland/MotherboardFirmware/Drivers/STM32H7xx_HAL_Driver/Inc/stm32h7xx_hal_uart_ex.h \
  /home/kbisland/MotherboardFirmware/Drivers/STM32H7xx_HAL_Driver/Inc/stm32h7xx_hal_pcd.h \
@@ -106,6 +108,10 @@ Src/usbd_custom_hid_if.o: ../Src/usbd_custom_hid_if.c \
 /home/kbisland/MotherboardFirmware/Drivers/STM32H7xx_HAL_Driver/Inc/stm32h7xx_hal_spi.h:
 
 /home/kbisland/MotherboardFirmware/Drivers/STM32H7xx_HAL_Driver/Inc/stm32h7xx_hal_spi_ex.h:
+
+/home/kbisland/MotherboardFirmware/Drivers/STM32H7xx_HAL_Driver/Inc/stm32h7xx_hal_tim.h:
+
+/home/kbisland/MotherboardFirmware/Drivers/STM32H7xx_HAL_Driver/Inc/stm32h7xx_hal_tim_ex.h:
 
 /home/kbisland/MotherboardFirmware/Drivers/STM32H7xx_HAL_Driver/Inc/stm32h7xx_hal_uart.h:
 

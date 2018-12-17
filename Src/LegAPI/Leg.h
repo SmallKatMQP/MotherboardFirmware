@@ -23,8 +23,6 @@ public:
 	void SetVelPID(uint8_t * motors, uint8_t * kp, uint8_t * ki, uint8_t * kd);
 	void SetTorquePID(uint8_t * motors, uint8_t * kp, uint8_t * ki, uint8_t * kd);
 
-
-
 private:
 	SPI_HandleTypeDef * hspi;
 	GPIO_TypeDef* GPIO;

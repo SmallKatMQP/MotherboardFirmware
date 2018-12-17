@@ -274,7 +274,6 @@ uint32_t pllp = 2, pllsource = 0, pllm = 2 ,tmp, pllfracen  =0 , hsivalue = 0;
 float fracn1, pllvco = 0 ;
 
   /* Get SYSCLK source -------------------------------------------------------*/
-
   switch (RCC->CFGR & RCC_CFGR_SWS)
   {
   case 0x00:  /* HSI used as system clock source */

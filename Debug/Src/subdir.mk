@@ -5,15 +5,15 @@
 # Add inputs and outputs from these tool invocations to the build variables 
 C_SRCS += \
 ../Src/stm32h7xx_hal_msp.c \
-../Src/stm32h7xx_it.c \
 ../Src/system_stm32h7xx.c \
 ../Src/usb_device.c \
 ../Src/usbd_conf.c \
-../Src/usbd_custom_hid_if.c \
 ../Src/usbd_desc.c 
 
 CPP_SRCS += \
-../Src/main.cpp 
+../Src/main.cpp \
+../Src/stm32h7xx_it.cpp \
+../Src/usbd_custom_hid_if.cpp 
 
 OBJS += \
 ./Src/main.o \
@@ -27,15 +27,15 @@ OBJS += \
 
 C_DEPS += \
 ./Src/stm32h7xx_hal_msp.d \
-./Src/stm32h7xx_it.d \
 ./Src/system_stm32h7xx.d \
 ./Src/usb_device.d \
 ./Src/usbd_conf.d \
-./Src/usbd_custom_hid_if.d \
 ./Src/usbd_desc.d 
 
 CPP_DEPS += \
-./Src/main.d 
+./Src/main.d \
+./Src/stm32h7xx_it.d \
+./Src/usbd_custom_hid_if.d 
 
 
 # Each subdirectory must supply rules for building sources it contributes

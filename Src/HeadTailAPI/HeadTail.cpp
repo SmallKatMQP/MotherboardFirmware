@@ -26,7 +26,7 @@ void HeadTail::SetPosPID(uint8_t* motors, uint8_t* kp, uint8_t* ki,
 
 	}
 	GPIO->ODR &= ~GPIO_Pin; //set cs pin low
-	HAL_SPI_Transmit(hspi, TransData, 29, 290);
+	//HAL_SPI_Transmit(hspi, TransData, 29, 290);
 	GPIO->ODR |= GPIO_Pin; //set cs pin high
 
 }
@@ -44,7 +44,7 @@ void HeadTail::SetVelPID(uint8_t* motors, uint8_t* kp, uint8_t* ki,
 
 	}
 	GPIO->ODR &= ~GPIO_Pin; //set cs pin low
-	HAL_SPI_Transmit(hspi, TransData, 29, 290);
+	//HAL_SPI_Transmit(hspi, TransData, 29, 290);
 	GPIO->ODR |= GPIO_Pin; //set cs pin high
 
 }
@@ -62,7 +62,7 @@ void HeadTail::SetTorquePID(uint8_t* motors, uint8_t* kp, uint8_t* ki,
 
 	}
 	GPIO->ODR &= ~GPIO_Pin; //set cs pin low
-	HAL_SPI_Transmit(hspi, TransData, 29, 290);
+	//HAL_SPI_Transmit(hspi, TransData, 29, 290);
 	GPIO->ODR |= GPIO_Pin; //set cs pin high
 
 }
@@ -74,7 +74,7 @@ void HeadTail::updateLeg(uint16_t* Motor1, uint16_t* Motor2) {
 			TransData[i+5] = Motor2[i];
 		}
 		GPIO->ODR &= ~GPIO_Pin; //set cs pin low
-		HAL_SPI_TransmitReceive(hspi, TransData, retData,  29, 290);//send setpints and get prev data
+		//HAL_SPI_TransmitReceive(hspi, TransData, retData,  29, 290);//send setpints and get prev data
 		GPIO->ODR |= GPIO_Pin; //set cs pin high
 }
 

@@ -31,6 +31,8 @@ Middlewares/ST/STM32_USB_Device_Library/Core/Src/usbd_ctlreq.o: \
  /home/kbisland/MotherboardFirmware/Drivers/STM32H7xx_HAL_Driver/Inc/stm32h7xx_hal_pwr_ex.h \
  /home/kbisland/MotherboardFirmware/Drivers/STM32H7xx_HAL_Driver/Inc/stm32h7xx_hal_spi.h \
  /home/kbisland/MotherboardFirmware/Drivers/STM32H7xx_HAL_Driver/Inc/stm32h7xx_hal_spi_ex.h \
+ /home/kbisland/MotherboardFirmware/Drivers/STM32H7xx_HAL_Driver/Inc/stm32h7xx_hal_tim.h \
+ /home/kbisland/MotherboardFirmware/Drivers/STM32H7xx_HAL_Driver/Inc/stm32h7xx_hal_tim_ex.h \
  /home/kbisland/MotherboardFirmware/Drivers/STM32H7xx_HAL_Driver/Inc/stm32h7xx_hal_uart.h \
  /home/kbisland/MotherboardFirmware/Drivers/STM32H7xx_HAL_Driver/Inc/stm32h7xx_hal_uart_ex.h \
  /home/kbisland/MotherboardFirmware/Drivers/STM32H7xx_HAL_Driver/Inc/stm32h7xx_hal_pcd.h \
@@ -102,6 +104,10 @@ Middlewares/ST/STM32_USB_Device_Library/Core/Src/usbd_ctlreq.o: \
 /home/kbisland/MotherboardFirmware/Drivers/STM32H7xx_HAL_Driver/Inc/stm32h7xx_hal_spi.h:
 
 /home/kbisland/MotherboardFirmware/Drivers/STM32H7xx_HAL_Driver/Inc/stm32h7xx_hal_spi_ex.h:
+
+/home/kbisland/MotherboardFirmware/Drivers/STM32H7xx_HAL_Driver/Inc/stm32h7xx_hal_tim.h:
+
+/home/kbisland/MotherboardFirmware/Drivers/STM32H7xx_HAL_Driver/Inc/stm32h7xx_hal_tim_ex.h:
 
 /home/kbisland/MotherboardFirmware/Drivers/STM32H7xx_HAL_Driver/Inc/stm32h7xx_hal_uart.h:
 
