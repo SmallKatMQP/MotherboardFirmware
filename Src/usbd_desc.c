@@ -91,11 +91,11 @@
   * @{
   */
 
-#define USBD_VID     1155
+#define USBD_VID     0x3742
 #define USBD_LANGID_STRING     1033
 #define USBD_MANUFACTURER_STRING     "SmallKat"
-#define USBD_PID_HS     22352
-#define USBD_PRODUCT_STRING_HS     "SmallKat Inteface Board"
+#define USBD_PID_HS     0x5750
+#define USBD_PRODUCT_STRING_HS     "SmallKat Mother Board"
 #define USBD_SERIALNUMBER_STRING_HS     "00000000001A"
 #define USBD_CONFIGURATION_STRING_HS     "Custom HID Config"
 #define USBD_INTERFACE_STRING_HS     "Custom HID Interface"

@@ -59,7 +59,7 @@ extern SPI_HandleTypeDef hspi3;
 extern SPI_HandleTypeDef hspi4;
 extern SPI_HandleTypeDef hspi5;
 extern SPI_HandleTypeDef hspi6;
-
+uint8_t SPI1_Ready, SPI2_Ready, SPI3_Ready, SPI4_Ready, SPI5_Ready, SPI6_Ready;
 /******************************************************************************/
 /*            Cortex Processor Interruption and Exception Handlers         */ 
 /******************************************************************************/
@@ -219,6 +219,8 @@ void DMA1_Stream0_IRQHandler(void)
 
   /* USER CODE END DMA1_Stream0_IRQn 0 */
   HAL_DMA_IRQHandler(&hdma_spi1_rx);
+  CS1_1_GPIO_Port->ODR |= CS1_1_Pin;
+  SPI1_Ready = 1;
   /* USER CODE BEGIN DMA1_Stream0_IRQn 1 */
 
   /* USER CODE END DMA1_Stream0_IRQn 1 */
@@ -247,6 +249,8 @@ void DMA1_Stream2_IRQHandler(void)
 
   /* USER CODE END DMA1_Stream2_IRQn 0 */
   HAL_DMA_IRQHandler(&hdma_spi2_rx);
+  CS2_GPIO_Port->ODR |= CS2_Pin;
+  SPI2_Ready = 1;
   /* USER CODE BEGIN DMA1_Stream2_IRQn 1 */
 
   /* USER CODE END DMA1_Stream2_IRQn 1 */

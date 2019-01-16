@@ -1,4 +1,4 @@
-Src/stm32h7xx_it.o: ../Src/stm32h7xx_it.cpp \
+Src/stm32h7xx_it.o: ../Src/stm32h7xx_it.c \
  /home/kbisland/MotherboardFirmware/Drivers/STM32H7xx_HAL_Driver/Inc/stm32h7xx_hal.h \
  /home/kbisland/MotherboardFirmware/Inc/stm32h7xx_hal_conf.h \
  /home/kbisland/MotherboardFirmware/Inc/main.h \
@@ -34,14 +34,7 @@ Src/stm32h7xx_it.o: ../Src/stm32h7xx_it.cpp \
  /home/kbisland/MotherboardFirmware/Drivers/STM32H7xx_HAL_Driver/Inc/stm32h7xx_hal_pcd.h \
  /home/kbisland/MotherboardFirmware/Drivers/STM32H7xx_HAL_Driver/Inc/stm32h7xx_ll_usb.h \
  /home/kbisland/MotherboardFirmware/Drivers/STM32H7xx_HAL_Driver/Inc/stm32h7xx_hal_pcd_ex.h \
- /home/kbisland/MotherboardFirmware/Inc/stm32h7xx_it.h \
- /home/kbisland/MotherboardFirmware/Middlewares/ST/STM32_USB_Device_Library/Class/CustomHID/Inc/usbd_customhid.h \
- /home/kbisland/MotherboardFirmware/Middlewares/ST/STM32_USB_Device_Library/Core/Inc/usbd_ioreq.h \
- /home/kbisland/MotherboardFirmware/Middlewares/ST/STM32_USB_Device_Library/Core/Inc/usbd_def.h \
- /home/kbisland/MotherboardFirmware/Inc/usbd_conf.h \
- /home/kbisland/MotherboardFirmware/Middlewares/ST/STM32_USB_Device_Library/Core/Inc/usbd_core.h \
- /home/kbisland/MotherboardFirmware/Middlewares/ST/STM32_USB_Device_Library/Core/Inc/usbd_ioreq.h \
- /home/kbisland/MotherboardFirmware/Middlewares/ST/STM32_USB_Device_Library/Core/Inc/usbd_ctlreq.h
+ /home/kbisland/MotherboardFirmware/Inc/stm32h7xx_it.h
 
 /home/kbisland/MotherboardFirmware/Drivers/STM32H7xx_HAL_Driver/Inc/stm32h7xx_hal.h:
 
@@ -114,17 +107,3 @@ Src/stm32h7xx_it.o: ../Src/stm32h7xx_it.cpp \
 /home/kbisland/MotherboardFirmware/Drivers/STM32H7xx_HAL_Driver/Inc/stm32h7xx_hal_pcd_ex.h:
 
 /home/kbisland/MotherboardFirmware/Inc/stm32h7xx_it.h:
-
-/home/kbisland/MotherboardFirmware/Middlewares/ST/STM32_USB_Device_Library/Class/CustomHID/Inc/usbd_customhid.h:
-
-/home/kbisland/MotherboardFirmware/Middlewares/ST/STM32_USB_Device_Library/Core/Inc/usbd_ioreq.h:
-
-/home/kbisland/MotherboardFirmware/Middlewares/ST/STM32_USB_Device_Library/Core/Inc/usbd_def.h:
-
-/home/kbisland/MotherboardFirmware/Inc/usbd_conf.h:
-
-/home/kbisland/MotherboardFirmware/Middlewares/ST/STM32_USB_Device_Library/Core/Inc/usbd_core.h:
-
-/home/kbisland/MotherboardFirmware/Middlewares/ST/STM32_USB_Device_Library/Core/Inc/usbd_ioreq.h:
-
-/home/kbisland/MotherboardFirmware/Middlewares/ST/STM32_USB_Device_Library/Core/Inc/usbd_ctlreq.h:

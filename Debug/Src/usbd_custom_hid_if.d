@@ -1,4 +1,4 @@
-Src/usbd_custom_hid_if.o: ../Src/usbd_custom_hid_if.cpp \
+Src/usbd_custom_hid_if.o: ../Src/usbd_custom_hid_if.c \
  /home/kbisland/MotherboardFirmware/Inc/usbd_custom_hid_if.h \
  /home/kbisland/MotherboardFirmware/Middlewares/ST/STM32_USB_Device_Library/Class/CustomHID/Inc/usbd_customhid.h \
  /home/kbisland/MotherboardFirmware/Middlewares/ST/STM32_USB_Device_Library/Core/Inc/usbd_ioreq.h \
